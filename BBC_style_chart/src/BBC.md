@@ -6,7 +6,8 @@ output:
         highlight: kate
 ---
 
-```{r, fig.height=13, fig.width=15, warning=FALSE, message=FALSE}
+
+```r
 # Las secciones de código utilizan el siguiente layout
 # ├─ Sección ===
 # │ ├─ Sub 1 ---
@@ -106,4 +107,6 @@ house %>%
                                rev = FALSE)) + 
   ggsave(here::here('rcreated_viz.jpeg'), height = 13, width = 15)
 ```
+
+![](BBC_files/figure-html/unnamed-chunk-1-1.png)<!-- -->
 
