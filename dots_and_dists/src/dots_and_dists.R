@@ -108,7 +108,7 @@ walk2(sup_vector$k, sup_vector$theta,
 )
 
 
-# Final graph ====
+# Final viz ====
 orange_dens_dataf <- tibble(x = seq(8, 27, length.out = 100), y = dgamma(x, shape = 19.8, scale = 0.901))
 blue_dens_dataf <- tibble(x = seq(0, 40, length.out = 100), y = dgamma(x, shape = 7.71, scale = 2))
 final_graph <- gen_dataf %>% 
@@ -119,8 +119,7 @@ final_graph <- gen_dataf %>%
     xlim(c(1, 27)) +
     theme_void() +
     theme(legend.position = 'none')
-final_graph + ggsave('new_r_made_graph.png')
-final_graph + ggsave('new_r_made_graph.pdf')
+final_graph + ggsave('rcreated_viz.jpeg')
 
 
 

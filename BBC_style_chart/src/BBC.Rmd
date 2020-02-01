@@ -102,6 +102,7 @@ house %>%
                                keyheight = 0.25, 
                                keywidth = 2,
                                byrow = T, 
-                               rev = FALSE)) 
+                               rev = FALSE)) + 
+  ggsave(here::here('rcreated_viz.jpeg'), height = 13, width = 15)
 ```
 
