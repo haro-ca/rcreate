@@ -1,6 +1,5 @@
-# rcreate <img src="logo/rcreate_sticker.jpeg" align="right" height="200" />
+# rcreate <img src="logo/rcreate_sticker.jpeg" align="right" height="139" />
 
-# Overview
 
 # Overview
 
