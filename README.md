@@ -2,6 +2,8 @@
 
 # Overview
 
+# Overview
+
 Is there a viz that ggplot2 can't recreate? Let's find out!  
 Originals on the left and recreated ones on the right.  
 Suggestions of vizs or feedback are absolutely welcomed via [twitter](https://twitter.com/haro_ca_).
