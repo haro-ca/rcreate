@@ -1,4 +1,4 @@
-# rcreate <img src="logo/rcreate_sticker.jpeg" align="right" height="139" />
+# rcreate <img src="logo/rcreate_sticker.jpeg" align="right" height="200" />
 
 
 # Overview
