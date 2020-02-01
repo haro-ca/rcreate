@@ -1,9 +1,10 @@
-<h1 style="font-weight:normal" align="center">
-  rcreate
-</h1>
+# rcreate <img src='logo/rcreate_sticker.png' align="right" height="139" />
 
 Is there a viz that ggplot2 can't recreate? Let's find out!  
 Originals on the left and recreated ones on the right. 
+Suggestions of vizs or feedback are absolutely welcomed via [twitter](https://twitter.com/haro_ca_).
+
+(Also, no copyright intended, just an R fanatic testing skills)
 
 # 01. BBC style chart
 original             |  rcreated
