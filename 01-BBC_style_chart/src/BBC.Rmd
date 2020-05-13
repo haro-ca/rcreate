@@ -15,6 +15,7 @@ output:
 # ├ Librerías ====
 options(tidiverse.quiet = TRUE)
 library(tidyverse)
+cat('')
 
 # ├─ Simulación de los datos ====
 # │ ├─ Muestreo ----
