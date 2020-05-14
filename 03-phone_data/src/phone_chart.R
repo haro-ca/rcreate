@@ -88,5 +88,5 @@ bind_rows(calls_counted, texts_counted) %>%
                                nrow = 2, 
                                keyheight = 0.75, 
                                keywidth = 2,
-                               byrow = F)) %>% 
-  ggsave('', width = 15, height = 13)
+                               byrow = F)) +
+  ggsave('phone_chart.png', width = 6, height = 4)
