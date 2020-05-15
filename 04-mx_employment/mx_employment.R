@@ -52,7 +52,7 @@ imss %>%
   annotate('curve', x = 5.5, y = -1.75, xend = 4.1, yend = -2, curvature = -.3, 
            arrow = arrow(length = unit(0.1, "cm"))) +
   annotate('text', x = 7, y = -1.4,
-           label = str_wrap('De enero a abril de este año\nse han perdido 564,701 empleos', 
+           label = str_wrap('De enero a abril 2020\nse han perdido 564,701 empleos', 
                             width = 21), 
            family = 'Andale Mono', 
            color = rojo_fuerte,
@@ -64,9 +64,10 @@ imss %>%
                                          breaks = c(-2.5, -1.5, 0, 1, 2), 
                                          labels = c('-2.5%', '-1.5%', '0%', '1%', '2%')), 
                      expand = expansion(c(0.1, 0.1))) +
-  labs(title = "Cambio en el % de asegurados del IMSS", 
+  labs(title = "Cámbio en el % de asegurados del IMSS", 
        subtitle = "<b style='color:#BD343E'>2020</b> vs. <b style='color:#909090'>2000 - 2019</b> y su mediana",
-       x = '', y = '') +
+       x = '', y = '', 
+       caption = 'Autor: @haro_ca_\nFuente: IMSS') +
   ggthemes::theme_clean() +
   theme(text = element_text(family = "Andale Mono"),
         plot.title = element_markdown(lineheight = 1.1),
